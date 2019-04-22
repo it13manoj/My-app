@@ -1,0 +1,357 @@
+/*-----------------------------------------
+* Theme Name: naukriyan
+* Author: Priya Katiyar
+* Version: 1.0
+* Last Change: oct 29 2018
+ --------------------------------*/
+@media only screen  and (min-width : 768px) {
+	.emp-detail {
+	    margin-top: 0px;
+	}
+}
+	
+@media only screen  and (min-width : 993px) {
+	section {
+		padding:3em 0 3em 0; /*changes refelected in dashboard card section*/
+	}
+
+	.navbar-default .navbar-brand img {
+		max-width: 170px;
+	}
+	.half-box {
+		padding:140px 40px;
+	}
+	.half-box h2{
+		font-size:50px;
+	}
+	.newsletter{
+		padding:100px 0;
+	}
+	
+	.freelancer.banner h2{
+	font-size:50px;
+	}
+	.freelancer.banner .input-group .form-control{
+		height: 55px;
+	}
+	.freelancer.banner .input-group-btn:last-child>.btn, .freelancer.banner .input-group-btn:last-child>.btn-group {
+		height: 55px;
+	}
+
+	/*Latest Job tab*/
+	.tab1{
+		border-radius: 50px 0 0 50px !important;
+	}
+	.tab-last{
+		border-radius: 0 50px 50px 0 !important;
+	}
+	.middle_tab{
+		border-radius: 0px !important;
+	}
+	/*index page*/
+	.border-radius-0 {
+		border-radius: 0px !important;
+	}
+}
+
+@media only screen  and (min-width : 1024px) {
+	
+	h1 {
+	  font-size:46px;
+	}
+	h2 {
+	  font-size:36px;
+	}
+	h3 {
+	  font-size:27px;
+	}
+	h4 {
+	  font-size:20px;
+	} 
+	
+	h5 {
+	  font-size:17;
+	}
+	
+	h6 {
+	  font-size:12;
+	}
+	
+	/*------------ Custom Font Style --------------*/
+	.font-50{
+	font-size:50px;
+	}
+
+	.font-60{
+		font-size:60px;
+	}
+
+	.font-80{
+		font-size:80px;
+	}
+
+	.font-100{
+		font-size:100px;
+	}
+
+	.font-150{
+		font-size:150px;
+	}
+
+	.font-200{
+		font-size:200px;
+	}
+
+	.font-250{
+		font-size:250px;
+	}
+
+	.font-300{
+		font-size:300px;
+	}
+
+	.font-400{
+		font-size:400px;
+	}
+
+	.font-450{
+		font-size:450px;
+	}
+
+	.font-500{
+		font-size:500px;
+	}
+
+	.font-bold{
+		font-weight:bold;
+	}
+	.main-banner h2 {
+		font-size: 50px;
+		font-weight: 600;
+		margin-bottom:10px;
+	}
+	.main-banner p{
+		font-size:17px;
+	}
+
+	/*home page*/
+	.nav.nav-tabs.nav-advance {
+    	max-width: 70%;
+	}
+	.nav-tabs.nav-advance>li{
+		width:25%;
+	}
+
+}
+
+@media only screen  and (min-width : 1200px) {
+	
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 993px){
+	
+	nav.navbar.bootsnav.navbar-fixed .logo-scrolled {
+    	display: none;
+	}
+}
+
+@media screen and (max-width: 1199px) {
+	.nav.nav-tabs.nav-advance{
+		max-width: 100%
+	}
+	.nav-tabs.nav-advance>li{
+		width:25%;
+	}
+	#signin .log-box{
+		margin-top: 80px
+	}
+
+}
+
+@media only screen and (max-width: 992px) and (min-width: 768px){
+
+}
+@media screen and (max-width: 992px) {
+	.navbar-default .navbar-brand img {
+		max-width: 120px;
+	}
+	.main-banner .form-control{
+		margin-bottom:10px;
+	}
+	
+	.fb-log-btn {
+		margin-bottom: 10px;
+	}
+	
+	.main-banner {
+		padding-top: 120px;
+	}
+	.middle_tab {
+    	border-radius: 0px !important;
+	}
+	.tab1 {
+ 	   border-radius: 50px 0 0 50px !important;
+	}
+	.middle_tab {
+    	border-radius: 0px !important;
+	}
+	.tab-last {
+ 	   border-radius: 0 50px 50px 0 !important;
+	}
+	.border-radius-0 {
+ 	   border-radius: 0px !important;
+	}
+		
+	.padd-l-xs-0{
+		padding-left: 0px;
+	}
+
+	/*#signin nav{
+		    background-color: #f1f1f1;
+	}*/
+	#signin .log-box{
+		margin-top: 80px;
+	}
+	nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn {
+		        padding: 5px 8px !important;
+		        font-size: 14px !important;
+		        font-weight: 700 !important;
+		}
+	
+}
+
+@media screen and (max-width: 767px) {
+	/*-- General Style--*/
+	html body .mob-padd-0{
+		padding:0;
+	}
+	html body .mob-mrg-0{
+		margin:0;
+	}
+	html body .mob-extra-mrg{
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	.heading h2 {
+		font-size: 28px;
+	}
+	/*----- Mobile Padding Settings ------*/
+	.mob-padd-0{
+		padding-left:0;
+		padding-right:0;
+	}
+        .m-clear{
+	clear:both;
+	}
+	.mob-mrg-0{
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	.mob-extra-mrg{
+		margin-left:-15px;
+		margin-right:-15px;
+	}
+	
+	.banner {
+		padding: 100px 0 80px 0;
+	}
+	
+	.emp-pic, .emp-bt, .emp-des {
+		text-align: center;
+	}
+	
+	.emp-pic img{
+		display:table;
+		margin:0 auto;
+	}
+	.emp-detail {
+		margin-top: 50px;
+	}
+
+	/*.nav.nav-tabs.nav-advance{
+		max-width: 100%
+	}
+	.nav-tabs.nav-advance>li{
+		width:25%;
+	}*/
+	.tab1 {
+ 	   border-radius: 50px 0 0 50px !important;
+	}
+	.middle_tab {
+    	border-radius: 0px !important;
+	}
+	.skill_search {
+    	border-radius: 50px 50px 50px 50px !important;
+	}
+	.border-radius-xs-50{
+		border-radius: 50px !important;
+	}
+	.border-radius-50 {
+ 	   border-radius: 30px !important;
+	}
+
+	.padd-l-xs-0{
+		padding-left: 0px;
+	}
+
+
+	/*sign in page mobile */
+	#signin nav{
+		    background-color: #f1f1f1;
+	}
+	#signin .log-box{
+		margin-top: 80px;
+	}
+	.google-log-btn{
+		margin-top:10px;
+	}
+}
+
+
+
+/*Responsive css for small Mobile*/
+
+
+@media screen and (max-width: 479px) {
+	.nav.nav-tabs.nav-advance{
+		max-width:100% ;
+		    border-radius: 15px;
+	}
+	.nav-tabs.nav-advance>li{
+		width:50%;
+	}
+	.nav-tabs.nav-advance>li>a{
+		font-size: 12px;
+		    padding: 6px 6px;
+		    border-radius: 5px;
+	}
+	.nav-tabs.nav-advance>li.active>a, .nav-tabs.nav-advance>li>a:hover, .nav-tabs.nav-advance>li>a:focus{
+		font-size: 12px;
+		    padding: 7px 6px;
+	}
+	.btn-m{
+		padding: 10px 30px;
+	}
+
+	.border-radius-50 {
+ 	   border-radius: 30px !important;
+	}
+
+	/*index page*/
+
+	.skill_search {
+    	border-radius: 50px 50px 50px 50px !important;
+	}
+	.border-radius-xs-50{
+		border-radius:50px !important;
+	}
+
+
+	.padd-l-xs-0{
+		padding-left: 0px;
+	}
+
+	/*signin page*/
+
+	
+}

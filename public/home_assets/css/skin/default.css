@@ -1,0 +1,166 @@
+/*-------------- General Color ----------------*/
+p a {
+    color: #27265b;
+}
+.theme-cl {
+    color: #27265b;
+}
+.theme-btn {
+    background: #27265b;
+    border: 1px solid #27265b;
+	color:#ffffff;
+}
+.theme-btn:hover, .theme-btn:focus{
+	color:#ffffff;
+	background: #ff7c39;
+    border: 1px solid #ff7c39;
+}
+.btn.theme-btn-outlined, a.theme-btn-outlined{
+	border:1px solid #27265b;
+	color:#27265b;	
+}
+.btn.theme-btn-outlined:hover, a.theme-btn-outlined:hover, .btn.theme-btn-outlined:focus, a.theme-btn-outlined:focus{
+	background:#27265b;
+	border-color:#27265b;
+}
+.btn.light-btn, a.light-btn{
+	background:#ffffff;
+	border:1px solid #ffffff;
+	color:#27265b;
+}
+.btn.light-btn:hover, .btn.light-btn:focus, a.light-btn:hover, a.light-btn:focus{
+	background:#27265b;
+	border:1px solid #27265b;
+	color:#ffffff;
+}
+nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn {
+    background:#ffffff !important;
+    font-weight: 300;
+    color: #27265b !important;
+    border:1px solid #27265b;
+    text-align: center;
+}
+nav.navbar.bootsnav ul.nav > li >a.btn-signup.red-btn:hover {
+    background:#e25f14 !important;
+    font-weight: 300;
+    color: #ffffff !important;
+    border-color: #e25f14;
+}
+.cmp-overview .cmp-icon i.fa {
+    background: #27265b;
+}
+.category-box .category-desc i {
+    color: #27265b;
+}
+.nav-tabs.nav-advance>li.active>a, .nav-tabs.nav-advance>li>a:hover, .nav-tabs.nav-advance>li>a:focus {
+    color: #27265b !important;
+}
+.slick-next:before, .slick-prev:before {
+    color: #27265b;
+}
+
+/*---------- Banner ----------*/
+.main-banner:before {
+    content: "";
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background: #1491de;
+    background: -webkit-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: -moz-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: -ms-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: -o-linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    background: linear-gradient(left, rgba(20,145,222,1) 0%,rgba(185,57,208,1) 100%);
+    opacity: 0.8;
+}
+
+
+/*----------- Checkbox & Radio Button -------------*/
+.custom-checkbox input[type="checkbox"]:checked + label:before {
+	border-color: #fb236a;
+    background: #fc236a;
+}
+
+
+.custom-radio [type="radio"]:checked + label:after,
+.custom-radio [type="radio"]:not(:checked) + label:after {
+    background:#27265b;
+}
+
+/*---------- Pagination --------------*/
+.pagination>.active>a, .pagination>.active>span, .pagination>.active>a:hover, .pagination>.active>span:hover, .pagination>.active>a:focus, .pagination>.active>span:focus, .pagination>li>a:hover, .pagination>li>a:focus {
+	color:#27265b;
+	border-color:#27265b;
+}
+.pagination li:first-child a {
+	background: #27265b;
+	border: 1px solid #27265b;
+}
+
+/*------ Package --------*/
+.active .package-header {
+    background: #27265b;
+}
+button.btn.btn-package {
+    background: #27265b;
+}
+
+/*--------- Testimonial ----------*/
+.testimonial-detail .client-rating i {
+    color: #27265b;
+}
+
+/*------ Accordion Color -------------*/
+.style-1#accordion .panel-title a:after,
+.style-1#accordion .panel-title a.collapsed:after{
+    color:#27265b;
+}
+
+#accordion2 .panel-title a:after,
+#accordion2 .panel-title a.collapsed:after{
+    color:#27265b;
+}
+
+#accordion2.panel-group.style-2 .panel-title a.collapsed {
+    background: #27265b;
+}
+
+/*------ Tab Color -------------*/
+.tab.style-1 .nav-tabs li a:hover,
+.tab.style-1 .nav-tabs li.active a{
+    color: #27265b;
+    border-bottom: 2px solid #27265b;
+}
+
+.tab.style-2 .nav-tabs li a:hover, .tab.style-2 .nav-tabs li.active a {
+    border-bottom: 2px solid #27265b;
+    background: #27265b;
+}
+
+/*---- Footer -------*/
+.footer h4 {
+    color: #27265b;
+}
+.footer .f-social-box ul li a i:hover, .footer .f-social-box ul li a i:focus {
+    background: #27265b;
+    border-color: #27265b;
+}
+
+
+/*--------- Inner Pages ----------------*/
+ul.side-list-inline.social-side li a :hover, ul.side-list-inline.social-side li a :focus {
+    background:#27265b;
+}
+.detail-info > h3 {
+    color: #27265b;
+}
+span.pull-right.vacancy-no span.v-count {
+    background: rgba(255, 124, 57,0.1);
+    color: #27265b;
+    border: 1px solid #27265b;
+}
+

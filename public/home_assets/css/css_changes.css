@@ -1,0 +1,501 @@
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS - Changes :
+----------------------------------------------------------------
+# Header
+# Home Banner
+# Custom Settings
+# Form And Button
+# Heading Style
+# Pagination Style
+# Search Filter Style
+# Navigation Style Setting
+# First Home Page Banner Style Settings
+# Search form style
+# Banner Brand Carousel
+# Second Home Page Banner Style Settings
+# Banner bottom search form
+# Third Home Page Banner Style Settings
+# Search job Style
+# Fourth Home Page Banner Style Settings
+# Five Home Page Banner Style Settings
+# Advance Job Feature
+# Work Process Style Settings
+# Top features Style Settings
+# Video Part Style Settings
+# Work Process Style Settings
+# Testimonials Style Settings
+# Call To Actione Style Settings
+# Pricing Table Style Settings
+# Download app Style Settings
+# Footer Part Style Settings
+# Footer Social Media
+# Footer Contact Form Style
+# Footer Copyright Style
+# Inner Page Style Settings
+	-Common Style Setting
+	-Inner Dropdown Button Style
+	-Search Filter
+	
+# Browse Job Style Settings
+# Browse Company Style Settings
+# Browse Resume Style Settings
+# Manage Candidate Style Settings
+# Manage Employee Style Settings
+# Manage Company Style Settings
+# Manage Resume Style Settings
+# Manage Resume 2 Style Settings
+# Job, Resume and Company Detail Page Style 
+# Add Company, Resume and Job Page Style Settings
+	-Bootstrap Editor
+	-file field
+	
+#  Company detail, Job Detail and Resume Detail Page Style Settings
+# Accordion  Page Style Settings
+	-simple Accordian style
+	-style for accordian three
+	
+# Tab Page Style Settings
+	-Simple Tab style
+	-Icon Tab style
+	
+# Login and Signup Popup
+# Contact us Page Style Settings
+# Blog Page Page Design
+	-Sidebar Star
+	
+# Blog Detail Page Style Settings
+	-Blog Comment Style Settings
+	
+# Login Signup And Forget password page style settings
+# Signup 2 page design
+# Search Job Page Design
+# Brows job in Grid Style 
+# New Search Job Style
+	Sidebar Style
+# New Job Detail Style
+# Error page design
+# Employer & Candidate Profile Page Design
+# Dropper Settings
+
+# New Pages Style
+	-Hero Banner section
+	-Freelancer
+	-Paid Candidat
+	-popular job
+	-How It Works
+	-Freelancer Detail
+	-job Apply Detail
+	-Login
+	-Review & New Detail Page
+	-Default Sidebar
+		-Detail For Freelancer
+		-Job Share Sidebar
+
+# Responsiveness Start 
+--------------------------------------------------------*/
+
+/* ========================================================================== Header Changes =============================================== */
+
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.active>a {
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    background-image: none;
+    /*filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffdbdbdb', endColorstr='#ffe2e2e2', GradientType=0);*/
+    background-repeat: repeat-x;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,.075);
+}
+.signin
+{
+	border-radius: 3px !important;
+}
+
+nav.navbar.bootsnav ul.nav > .active{
+	border-bottom: 2px solid #e25f14 !important; 
+	color: #e25f14;
+}
+
+ 
+nav.navbar.bootsnav.navbar-light.white ul.nav > .active > a{
+	color: #e25f14;
+}
+
+nav.navbar.bootsnav ul.nav > li > a{
+	text-transform: none;
+	font-weight: 400;
+    font-size: 20px;
+}
+
+body nav.navbar.bootsnav ul.nav > li > a.signin{
+	text-shadow: 0 1px 0 rgb(226, 95, 20);
+	border:1px solid #e25f14;
+}
+
+body nav.navbar.bootsnav ul.nav > li > a.signin:hover{
+	background-color: #e25f14 !important;
+	color:#fff !important;
+}
+
+	/* ========================================================================== Home PageChanges =============================================== */
+
+		/* ======================= Banner Changes ========================= */
+
+			@media only screen and (min-width: 1024px){
+				.banner {
+			    height: 100vh;
+			    max-height: 450px;
+				}
+			}
+			@media only screen and (min-width: 768px){
+				.banner {
+			    min-height: 100px;
+				}
+			}
+
+			.form-control{
+				border-radius:3px !important;
+			}
+
+			.select2-selection__rendered{
+				border-radius:3px !important;
+			}
+			.select2-selection{
+				border-radius:3px !important;
+			}
+
+			.banner-caption .btn-primary{
+				border-radius:3px !important;
+			}
+
+			.banner{
+				padding-top: 4%;
+			}
+
+			.banner-caption .btn-primary{
+				text-transform: none;
+			}
+
+
+			.banner-caption .btn-primary:focus, .banner-caption .btn-primary:hover{
+			text-transform: none;
+			}
+
+
+
+
+		/* =======================Job Lising : Home Page; ================== */
+
+			.brows-job-location {
+			    margin-top: 35px;
+			}
+
+			.job_save{
+				font-size: 20px;
+			}
+			.job_save i{
+				margin-top: 15px;
+			}
+
+			.brows-job-category h2 {
+			    color: #5a6f7c;
+			    font-size: 36px;
+			}
+
+			.tg-featuretag:after {
+			    border-top: 5px solid #2f2c5f;
+			}
+			.tg-featuretag:before{
+				    border-left: 10px solid #2f2c5f;
+			}
+
+			.tg-themetag{
+				    background: #2f2c5f;
+			}
+			.brows-job-list{
+			padding:0px;
+			box-shadow: 0px 0px 0px 0px rgba(88,96,109,0.14);
+			    -webkit-box-shadow: 0px 0px 0px 0px rgba(88,96,109,0.14);
+			    -moz-box-shadow: 0px 0px 0px 0px rgba(88,96,109,0.14);
+			}
+			.brows-job-list:hover {
+			    border-left: 4px solid #e25f14;
+			   border: 1px solid #e25f14;
+			}
+
+
+			.brows-job-list:hover, .brows-job-list:focus{
+				    transform: translateY(0px);
+			    -webkit-transform: translateY(0px);
+			}
+
+			.brows-job-position p span{
+				font-size: 14px;
+			    font-weight: 500;
+			    margin-right: 10px !important;
+			}
+
+
+			.btn{
+				border-radius: 3px !important;
+			}
+
+		/* =======================Infographis=============================== */
+
+			.heading {
+			    float: left;
+			    width: 100%;
+			    text-align: center;
+			    margin-bottom: 40px;
+			}
+			.stats span{
+				float: left;
+			    width: 100%;
+			    font-family: Quicksand;
+			    font-size: 60px;
+			    font-weight: bold;
+			    color: #ffffff;
+			    letter-spacing: 0px;
+			    line-height: 50px;
+			}
+			.stats h5 {
+			    float: left;
+			    width: 100%;
+			    margin: 0;
+			    margin-top: 0px;
+			    font-size: 18px;
+			    color: #ffffff;
+			    margin-top: 10px;
+			}
+			.video-sec:before{
+				background: rgba(226, 95, 20, 0.67);
+			}
+
+
+		/* =======================Call to action : Home Page; ===============*/
+
+			a.btn.bat-call-to-act{
+				border-radius: 3px;
+			}
+
+		/* =======================Job Category : Home Page; ================= */
+
+			
+			.category-box{
+				box-shadow: 0 0px 0px 0 rgba(41,128,185,0.15);
+			    -webkit-box-shadow: 0 0px 0px 0 rgba(41,128,185,0.15);
+			    margin-bottom: 0px;
+			    border-right: 1px solid #e8ecec;
+			    border-radius: 0px;
+			    border-bottom: 1px solid #e8ecec;
+			}
+
+			.cat-sec {
+			    float: left;
+			    width: 100%;
+			}
+
+			.cat-sec .row > div:last-child .category-box {
+			    border-right-color: #ffffff;
+			}
+
+			.cat-sec:last-child .category-box {
+			    border-bottom-color: #ffffff;
+			}
+
+			.category-box:hover{
+				-webkit-box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+			    -moz-box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+			    -ms-box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+			    -o-box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+			    box-shadow: 0px 0px 25px rgba(0,0,0,0.1);
+			    -webkit-border-radius: 8px;
+			    -moz-border-radius: 8px;
+			    -ms-border-radius: 8px;
+			    -o-border-radius: 8px;
+			    width: 104%;
+			    margin-left: -2%;
+			    z-index: 10;
+			}
+
+
+
+
+
+
+	/* ================================================== Job Lising Page =================================================== */
+
+		/* =======================Job lising : listing Page; ================= */
+
+			.select2-container--default .select2-selection--single{
+				background-color: transparent !important;
+			}
+			.select2-selection__rendered{
+				background: #FFF;
+				height: 50px !important;
+			    border: 1px solid #dde6ef !important;
+			    margin-bottom: 10px;
+			    box-shadow: none;
+			    border-radius: 3px;
+			}
+
+			.select2-container.select2-container--default{
+				background: transparent;
+				height: 50px !important;
+			    border: 1px solid transparent !important;
+			}
+			.select2-container--open .select2-dropdown--below{
+				border-top-left-radius: 4px;
+    			border-top-right-radius: 4px;
+			}
+
+			.modal .form-control {
+			    height: 42px;
+			    padding: 0 15px;
+			    border: 1px solid #d7dfea;
+			    color: #727272;
+			    width: 100%;
+			    margin: 0 auto;
+			    margin-bottom: 12px;
+			    font-size: 12px;
+			    border-radius: 2px;
+			    box-shadow: none;
+			}
+
+			.job-types {
+    			text-align: left;
+			}
+			.form-control{
+				    background: #ffffff;
+			}
+
+			.check-option {
+			    -webkit-appearance: none;
+			    -moz-appearance: none;
+			    -ms-appearance: none;
+			    -o-appearance: none;
+			    appearance: none;
+			    position: relative;
+			    width: 20px;
+			    height: 20px;
+			    border-radius: 3px;
+			    -webkit-transition: all 0.15s ease-out 0;
+			    -moz-transition: all 0.15s ease-out 0;
+			    transition: all 0.15s ease-out 0;
+			    background: #eaeef3;
+			    border: none;
+			    color: #fff;
+			    cursor: pointer;
+			    display: inline-block;
+			    outline: none;
+			    position: relative;
+			    margin-right: 0.5rem;
+			}
+
+			.check-option:checked::before {
+			    width: 20px;
+			    height: 20px;
+			    position: absolute;
+			    content: '\002714';
+			    display: inline-block;
+			    font-size: 15px;
+			    text-align: center;
+			    line-height: 21px;
+			}
+
+			label {
+    			font-weight: 400;
+			}
+			.modal .submit-btn {
+		    border: 1px solid #e25f14;
+		    padding: 14px 0;
+		    width: 240px;
+		     text-transform: none; 
+		    color: #e25f14;
+		    border-radius: 1px;
+		    font-size: 18px;
+		    transition: ease-in-out 0.6s;
+		    display: inline-block;
+		    margin-top: 1em;
+		    background: #ffffff;
+		    border-radius: 4px;
+		}
+		.pd-heading-popup hr{
+			margin-top: 10px !important;
+		}
+		.job-types input[type=checkbox], .job-types input[type=radio] {
+    		top: 0px;
+			}
+
+		.job-types label{
+			font-weight: 400;
+		}
+/* ==================================================New Added Class  : Comman CSS; =================================================== */
+
+.text-white{
+	color:#fff !important;
+}
+.pd-left-0{
+	padding-left: 0px !important;
+}
+.pd-right-0{
+	padding-right: 0px !important;
+}
+
+
+.theme_color{
+	color: #e25f14 !important;
+}
+
+.theme_background_color{
+	background-color: #e25f14;
+}
+
+.sec-theme-color{
+	color:#2f2c5f !important;
+}
+
+.width-100{
+	width: 100% !important;
+}
+
+.pd-heading-popup{
+	padding: 0 15px;
+}
+
+.viewmore .bat-call-to-act{
+	background: rgb(226, 95, 20) !important;
+}
+
+.viewmore .bat-call-to-act:hover{
+	background: rgba(226, 95, 20, 0.61) !important;
+}
+
+.margin-top-10{
+	margin-top: 10px !important;
+}
+
+.padding-left-0{
+	padding-left: 0px !important;
+}
+
+.padding-right-0{
+	padding-right: 0px !important;
+}
+
+
+/*==================================================main Button ===================================================================*/
+
+.btn-primary{
+	text-shadow: 0 -1px 0 rgb(226, 95, 20);
+	background: #ffffff !important;
+    border-color: #e25f14 !important;
+    color: #e25f14 !important;
+}
+
+.btn-primary:focus, .btn-primary:hover{
+	background: #e25f14 !important;
+	color:#fff !important;
+}
